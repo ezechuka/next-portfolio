@@ -10,63 +10,55 @@ import {
 import { IApp } from "./interfaces";
 
 const app: IApp = {
-  title: "Stanley Akpama",
-  desc: "Stanlee's Porfolio and Resume",
+  title: "Chukwuka Eze",
+  desc: "Chukwuka's Porfolio and Resume",
   hero: {
     tag: "hero",
-    name: "Stanley Akpama",
+    name: "Chukwuka Eze",
     catchPhrase: "10x",
-    tagLine: "Mobile And Frontend Developer",
+    tagLine: "Native Android Engineer",
   },
   about: {
     tag: "about",
-    name: "Stanley",
-    bio: `I'm a detail-oriented Mobile & Frontend Developer, I'm currently a Mobile Developer 
-    at <a  href='https://ourpass.co'>Pass</a> 
-    working on financial tools to revolutionize digital commerce in Africa.
-    <br/>
-    I'm a builder at heart, I co-founded and lead product for 
-    <a  href='https://kivifood.app'>kivifood</a>,
-    an on-demand food delivery startup. I write clean, maintainable and scalable code 
-    because i believe in the quest to solve problems for the next billion users,
-    I shouldn’t create one for developers like myself. 
-    I occasionally mentor at <a href='https://andela.com/learning-community/'>
-    Andela learning community</a>
-    and do open-source at <a href='https://github.com/iamstanlee'>Github</a>.`,
+    name: "Chukwuka",
+    bio: `I’ve 2+ years of experience in building applications on the Android platform, and 
+    I strive to provide the best user experience possible. My focus is on 
+    performance, minimalistic user interfaces, clean & efficient code.
+    As a software engineer, I'm driven to influence the customer positively and how my 
+    work impacts them. Also, I’m very passionate about the Open-source space 
+    and I actively contribute to Open source software (OSS).`,
     skills: [
       {
         title: "I'm proficient and actively working with",
         list: [
           {
             name: "language",
-            data: ["dart", "javascript", "typescript"],
+            data: ["kotlin", "java"],
           },
           {
-            name: "mobile",
-            data: ["flutter", "react-native"],
+            name: "android architecture",
+            data: ["MVVM", "MVP"],
           },
           {
-            name: "frontend",
-            data: ["reactjs", "nextjs", "recoiljs", "jotai", "redux"],
+            name: "dependency injection",
+            data: ["Dagger Hilt"],
           },
           {
             name: "styling",
-            data: ["CSS3", "styled-components", "chakra-ui", "tailwindcss"],
+            data: ["Compose", "XML"],
           },
           {
-            name: "Testing/DevOps",
+            name: "Testing",
             data: [
-              "Flutter testing library",
-              "Jest",
-              "Git",
-              "Github Action",
-              "Jenkins",
-              "Circle CI",
+              "JUnit4",
+              "Mockito",
+              "Espresso",
+              "Google Truth",
             ],
           },
           {
             name: "Others",
-            data: ["REST API", "graphql", "firebase", "GCP"],
+            data: ["REST API", "kotlin coroutines/Flow", "retrofit", "room", "clean architecture", "jetpack libraries", "googling"],
           },
         ],
       },
@@ -74,26 +66,26 @@ const app: IApp = {
   },
   contact: {
     tag: "contact",
-    email: "hey@stanleee.me",
+    email: "chukwuka.eze@eng.uniben.edu",
     urls: [
       {
         icon: <FilePdf size={22} />,
-        url: "/assets/Stanley_Akpama_Resume.pdf",
+        url: "/assets/Chukwuka_Resume.pdf",
         title: "Resume",
       },
       {
         icon: <LinkedinLogo size={22} />,
-        url: "https://linkedin.com/in/stan0x01",
+        url: "https://www.linkedin.com/in/iameze/",
         title: "Linkedin",
       },
       {
         icon: <TwitterLogo size={22} />,
-        url: "https://twitter.com/iamstanlee_",
+        url: "https://twitter.com/javalon007",
         title: "Twitter",
       },
       {
         icon: <GithubLogo size={22} />,
-        url: "https://github.com/iamstanlee",
+        url: "https://github.com/ezechuka",
         title: "Github",
       },
     ],
@@ -103,31 +95,33 @@ const app: IApp = {
     tag: "projects",
     projects: [
       {
-        title: "kivifood",
-        tags: ["mobile", "web"],
-        desc: "Kivifood is a platform where customers can get the food they want from the comfort of their homes.",
+        title: "Xpense whiz",
+        tags: ["Mobile"],
+        desc: "An income and expense money tracker app designed to enabled users keep track of their monetary activities.",
         links: [
           {
-            icon: <Globe size={24} />,
-            url: "https://kivifood.app",
-            tooltip: "View the web",
-          },
-          {
-            icon: <GooglePlayLogo size={24} />,
-            url: "https://play.google.com/store/apps/details?id=com.kivifood.app",
-            tooltip: "View on playstore",
-          },
-          {
-            icon: <AppStoreLogo size={24} />,
-            url: "https://apps.apple.com/us/app/kivi-food/id1588631598",
-            tooltip: "View on appstore",
+            icon: <GithubLogo size={24} />,
+            url: "https://github.com/ezechuka/xpense-whiz",
+            tooltip: "View on github",
           },
         ],
       },
       {
-        title: "Expense Bud",
-        tags: ["mobile"],
-        desc: "An app to keep of track your expenses and stay on top of your game with detailed insights 🚀",
+        title: "jamb360",
+        tags: ["Mobile"],
+        desc: "JAMB360 is an offline mobile/desktop based learning software built to assist intending candidates in preparing for the JAMB CBT exam.",
+        links: [
+          {
+            icon: <GooglePlayLogo size={24} />,
+            url: "https://play.google.com/store/apps/details?id=com.javalon.jamb360",
+            tooltip: "View on playstore",
+          }
+        ],
+      },
+      {
+        title: "English Whiz",
+        tags: ["Mobile"],
+        desc: "Yet Another English Dictionary App. EnglishWhiz is an offline dictionary app that features fast word look-up.",
         links: [
           {
             icon: <GooglePlayLogo size={24} />,
@@ -136,83 +130,56 @@ const app: IApp = {
           },
           {
             icon: <GithubLogo size={24} />,
-            url: "https://github.com/Iamstanlee/expense_bud",
+            url: "https://github.com/ezechuka/EnglishWhiz",
             tooltip: "View on github",
           },
         ],
       },
       {
-        title: "kivifood Vendor",
-        tags: ["mobile"],
-        desc: "Vendor app for kivifood",
+        title: "weather whiz",
+        tags: ["Mobile"],
+        desc: "A 7-day weather forecast app.",
         links: [
           {
             icon: <GooglePlayLogo size={24} />,
-            url: "https://play.google.com/store/apps/details?id=com.kivifood.vendor",
+            url: "https://play.google.com/store/apps/details?id=com.javalon.weatherwhiz",
             tooltip: "View on playstore",
           },
           {
-            icon: <AppStoreLogo size={24} />,
-            url: "https://apps.apple.com/us/app/kivifood-vendor/id1588656247",
-            tooltip: "View on appstore",
-          },
-        ],
-      },
-      {
-        title: "Linkfy Text",
-        tags: ["mobile"],
-        desc: "A lightweight flutter package to linkify texts containing urls, emails and hashtags like twitter does",
-        links: [
-          {
             icon: <GithubLogo size={24} />,
-            url: "https://github.com/Iamstanlee/linkfy_text",
+            url: "https://github.com/ezechuka/WeatherWhiz",
             tooltip: "View on github",
           },
         ],
       },
-
       {
-        title: "MV Player",
-        tags: ["mobile"],
-        desc: "MV Player is a video and audio media player application that support multiple file extensions. mp3, mp4, mpv etc.",
+        title: "SwiftTopUp",
+        tags: ["Mobile"],
+        desc: "SwiftTopUp VTU mobile app allows you pay for airtime & databundle bills easily from the comfort of your home at cheaper rate.",
         links: [
           {
             icon: <GooglePlayLogo size={24} />,
-            url: "https://play.google.com/store/apps/details?id=com.stanlee.mvplayer",
+            url: "https://play.google.com/store/apps/details?id=com.javalon.swifttopup",
             tooltip: "View on playstore",
+          },
+          {
+            icon: <GithubLogo size={24} />,
+            url: "https://github.com/ezechuka/SwiftTopup",
+            tooltip: "View on playstore"
           },
         ],
       },
-
       {
-        title: "lastprice",
-        tags: ["web"],
-        desc: "Lastprice is an eccomerce platform where vendors can sell products at discounted or slashed prices.",
+        title: "DigitConverter",
+        tags: ["Mobile"],
+        desc: "An Android utility library that simply returns the word interpretation of a given digit.",
         links: [
           {
-            icon: <Globe size={24} />,
-            url: "https://amazing-torvalds-02adef.netlify.app",
-            tooltip: "View the web",
-          },
-
-          {
             icon: <GithubLogo size={24} />,
-            url: "https://github.com/iamstanlee/last-price",
+            url: "https://github.com/ezechuka/DigitConverter",
             tooltip: "View on github",
           },
         ],
-      },
-    ],
-  },
-
-  blog: {
-    tag: "blog",
-    blogs: [
-      {
-        title: "Leetcode #845 — Longest Mountain In Array",
-        date: "DEC 24, 2021",
-        text: "The leetcode #845 problem is a classical dynamic programming problem where we are asked to return the length of the longest mountain subarray from a given array. What is a mountain array? from the leetcode description, an array is a mountain array if it satisfies the following...",
-        link: "https://medium.com/@iamstanlee/leetcode-845-longest-mountain-in-array-256202687979",
       },
     ],
   },

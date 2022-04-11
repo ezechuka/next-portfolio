@@ -9,7 +9,7 @@ const About: React.FC<Props> = ({ about: { tag, name, bio, skills } }) => {
   return (
     <S.Container id={tag}>
       <S.HeaderText>
-        Hi I&#39;m <S.ColoredText>{name}</S.ColoredText>
+        Hey, I&#39;m <S.ColoredText>{name}</S.ColoredText>
       </S.HeaderText>
       <S.ParaText dangerouslySetInnerHTML={{ __html: bio }}></S.ParaText>
       {skills.map((item, i) => (

@@ -31,7 +31,6 @@ const Home: NextPage<Props> = ({ app }: Props) => {
       <Hero hero={app.hero} />
       <About about={app.about} />
       <Project project={app.project} />
-      <Blog blog={app.blog} />
       <Contact contact={app.contact} />
 
       <Footer />

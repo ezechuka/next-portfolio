@@ -62,7 +62,6 @@ export interface IApp {
   about: IAbout;
   contact: IContact;
   project: IProject;
-  blog: IBlog;
 }
 
 export interface ITheme {

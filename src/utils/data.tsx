@@ -58,7 +58,7 @@ const app: IApp = {
           },
           {
             name: "Others",
-            data: ["REST API", "kotlin coroutines/Flow", "retrofit", "room", "clean architecture", "jetpack libraries", "googling"],
+            data: ["Git", "Github", "REST APIs", "Jetpack libraries", "Clean architecture", "kotlin coroutines/Flow", "retrofit", "Googling"],
           },
         ],
       },
@@ -100,8 +100,30 @@ const app: IApp = {
         desc: "An income and expense money tracker app designed to enabled users keep track of their monetary activities.",
         links: [
           {
+            icon: <GooglePlayLogo size={24} />,
+            url: "https://play.google.com/store/apps/details?id=com.javalon.xpensewhiz",
+            tooltip: "View on playstore",
+          },
+          {
             icon: <GithubLogo size={24} />,
             url: "https://github.com/ezechuka/xpense-whiz",
+            tooltip: "View on github",
+          },
+        ],
+      },
+      {
+        title: "English Whiz",
+        tags: ["Mobile"],
+        desc: "Yet Another English Dictionary App. EnglishWhiz is an offline dictionary app that features fast word look-up.",
+        links: [
+          {
+            icon: <GooglePlayLogo size={24} />,
+            url: "https://play.google.com/store/apps/details?id=com.javalon.englishwhiz",
+            tooltip: "View on playstore",
+          },
+          {
+            icon: <GithubLogo size={24} />,
+            url: "https://github.com/ezechuka/EnglishWhiz",
             tooltip: "View on github",
           },
         ],
@@ -119,18 +141,13 @@ const app: IApp = {
         ],
       },
       {
-        title: "English Whiz",
+        title: "roomie",
         tags: ["Mobile"],
-        desc: "Yet Another English Dictionary App. EnglishWhiz is an offline dictionary app that features fast word look-up.",
+        desc: "Utility library that utilizes KSP to generate Room converter classes.",
         links: [
           {
-            icon: <GooglePlayLogo size={24} />,
-            url: "https://play.google.com/store/apps/details?id=com.app.expense_bud",
-            tooltip: "View on playstore",
-          },
-          {
             icon: <GithubLogo size={24} />,
-            url: "https://github.com/ezechuka/EnglishWhiz",
+            url: "https://github.com/ezechuka/roomie",
             tooltip: "View on github",
           },
         ],

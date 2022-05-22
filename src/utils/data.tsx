@@ -57,8 +57,17 @@ const app: IApp = {
             ],
           },
           {
+            name: "Architecture Components",
+            data: [
+              "Room",
+              "ViewModel",
+              "Navigation",
+              "WorkManager",
+            ],
+          },
+          {
             name: "Others",
-            data: ["Git", "Github", "REST APIs", "Jetpack libraries", "Clean architecture", "kotlin coroutines/Flow", "retrofit", "Googling"],
+            data: ["Git/Github", "Github Actions", "REST APIs", "kotlin coroutines/Flow", "retrofit", "Sentry", "Googling"],
           },
         ],
       },
@@ -148,23 +157,6 @@ const app: IApp = {
           {
             icon: <GithubLogo size={24} />,
             url: "https://github.com/ezechuka/roomie",
-            tooltip: "View on github",
-          },
-        ],
-      },
-      {
-        title: "weather whiz",
-        tags: ["Mobile"],
-        desc: "A 7-day weather forecast app.",
-        links: [
-          {
-            icon: <GooglePlayLogo size={24} />,
-            url: "https://play.google.com/store/apps/details?id=com.javalon.weatherwhiz",
-            tooltip: "View on playstore",
-          },
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/ezechuka/WeatherWhiz",
             tooltip: "View on github",
           },
         ],

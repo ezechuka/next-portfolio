@@ -16,7 +16,7 @@ const app: IApp = {
     tag: "hero",
     name: "Chukwuka Eze",
     catchPhrase: "10x",
-    tagLine: "Native Android Engineer",
+    tagLine: "Frontend & Android developer",
   },
   about: {
     tag: "about",
@@ -33,7 +33,7 @@ const app: IApp = {
         list: [
           {
             name: "language",
-            data: ["kotlin", "java"],
+            data: ["kotlin", "java", "javascript"],
           },
           {
             name: "android architecture",
@@ -44,8 +44,12 @@ const app: IApp = {
             data: ["Dagger Hilt"],
           },
           {
+            name: "framework",
+            data: ["React"]
+          },
+          {
             name: "styling",
-            data: ["Compose", "XML"],
+            data: ["TailwindCSS", "ChakraUI", "Compose", "XML"],
           },
           {
             name: "Testing",
@@ -104,6 +108,40 @@ const app: IApp = {
     tag: "projects",
     projects: [
       {
+        title: "World Countries",
+        tags: ["Web"],
+        desc: "This project utilizes Next.js library to statically generate dynamic pages with optimized image loading from the REST COUNTRIES API. It also features color scheme toggling between light/dark mode.",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://world-countries-plum.vercel.app/",
+            tooltip: "View on web",
+          },
+          {
+            icon: <GithubLogo size={24} />,
+            url: "https://github.com/ezechuka/world-countries",
+            tooltip: "View on github",
+          },
+        ],
+      },
+      {
+        title: "Shortly",
+        tags: ["Web"],
+        desc: "Reactjs application that uses the shrtcode API (https.//app.shrtco.de/) to minify URL links while using the local storage to persist them.",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://shoortly.netlify.app/",
+            tooltip: "View on web",
+          },
+          {
+            icon: <GithubLogo size={24} />,
+            url: "https://github.com/ezechuka/shortly",
+            tooltip: "View on github"
+          },
+        ],
+      },
+      {
         title: "Xpense whiz",
         tags: ["Mobile"],
         desc: "An income and expense money tracker app designed to enabled users keep track of their monetary activities.",
@@ -157,35 +195,6 @@ const app: IApp = {
           {
             icon: <GithubLogo size={24} />,
             url: "https://github.com/ezechuka/roomie",
-            tooltip: "View on github",
-          },
-        ],
-      },
-      {
-        title: "SwiftTopUp",
-        tags: ["Mobile"],
-        desc: "SwiftTopUp VTU mobile app allows you pay for airtime & databundle bills easily from the comfort of your home at cheaper rate.",
-        links: [
-          {
-            icon: <GooglePlayLogo size={24} />,
-            url: "https://play.google.com/store/apps/details?id=com.javalon.swifttopup",
-            tooltip: "View on playstore",
-          },
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/ezechuka/SwiftTopup",
-            tooltip: "View on playstore"
-          },
-        ],
-      },
-      {
-        title: "DigitConverter",
-        tags: ["Mobile"],
-        desc: "An Android utility library that simply returns the word interpretation of a given digit.",
-        links: [
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/ezechuka/DigitConverter",
             tooltip: "View on github",
           },
         ],

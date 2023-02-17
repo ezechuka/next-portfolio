@@ -29,7 +29,7 @@ const Text = styled.span`
 const Footer: React.FC = () => {
   return (
     <Container>
-      <Text>©2022 </Text>
+      <Text>©2023 </Text>
       <Text>Designed with ❤️</Text>
       <SpiralImage1 src="/assets/images/spiral1.png" />
     </Container>

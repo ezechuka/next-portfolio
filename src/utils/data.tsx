@@ -16,12 +16,12 @@ const app: IApp = {
     tag: "hero",
     name: "Chukwuka Eze",
     catchPhrase: "10x",
-    tagLine: "Frontend & Android developer",
+    tagLine: "Frontend developer",
   },
   about: {
     tag: "about",
     name: "Chukwuka",
-    bio: `I’ve 2+ years of experience in building applications on the Android platform, and 
+    bio: `I’ve 1+ years of experience in building frontend applications, and 
     I strive to provide the best user experience possible. My focus is on 
     performance, minimalistic user interfaces, clean & efficient code.
     As a software engineer, I'm driven to influence the customer positively and how my 
@@ -33,45 +33,45 @@ const app: IApp = {
         list: [
           {
             name: "language",
-            data: ["kotlin", "java", "javascript"],
+            data: ["typescript", "javascript"],
           },
-          {
-            name: "android architecture",
-            data: ["MVVM", "MVP"],
-          },
-          {
-            name: "dependency injection",
-            data: ["Dagger Hilt"],
-          },
+          // {
+          //   name: "android architecture",
+          //   data: ["MVVM", "MVP"],
+          // },
+          // {
+          //   name: "dependency injection",
+          //   data: ["Dagger Hilt"],
+          // },
           {
             name: "framework",
-            data: ["React"]
+            data: ["Reactjs", "Nextjs"]
           },
           {
             name: "styling",
-            data: ["TailwindCSS", "ChakraUI", "Compose", "XML"],
+            data: ["CSS3", "TailwindCSS", "ChakraUI"],
           },
-          {
-            name: "Testing",
-            data: [
-              "JUnit4",
-              "Mockito",
-              "Espresso",
-              "Google Truth",
-            ],
-          },
-          {
-            name: "Architecture Components",
-            data: [
-              "Room",
-              "ViewModel",
-              "Navigation",
-              "WorkManager",
-            ],
-          },
+          // {
+          //   name: "Testing",
+          //   data: [
+          //     "JUnit4",
+          //     "Mockito",
+          //     "Espresso",
+          //     "Google Truth",
+          //   ],
+          // },
+          // {
+          //   name: "Architecture Components",
+          //   data: [
+          //     "Room",
+          //     "ViewModel",
+          //     "Navigation",
+          //     "WorkManager",
+          //   ],
+          // },
           {
             name: "Others",
-            data: ["Git/Github", "Github Actions", "REST APIs", "kotlin coroutines/Flow", "retrofit", "Sentry", "Googling"],
+            data: ["Git/Github", "Axios", "Redux", "Firebase", "Sentry", "Googling"],
           },
         ],
       },
@@ -83,7 +83,7 @@ const app: IApp = {
     urls: [
       {
         icon: <FilePdf size={22} />,
-        url: "/assets/Chukwuka_Resume.pdf",
+        url: "/assets/resume.pdf",
         title: "Resume",
       },
       {
@@ -107,6 +107,23 @@ const app: IApp = {
   project: {
     tag: "projects",
     projects: [
+      {
+        title: "Urban Interiors",
+        tags: ["Web"],
+        desc: "A furniture e-commerce web store powered by firebase and built using Nextjs and ChakraUI which features a products listing page, cart, wishlist, checkout and an admin panel.",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://urban-interiors.vercel.app/",
+            tooltip: "View on web",
+          },
+          {
+            icon: <GithubLogo size={24} />,
+            url: "https://github.com/ezechuka/urban-interiors",
+            tooltip: "View on github",
+          },
+        ],
+      },
       {
         title: "World Countries",
         tags: ["Web"],
@@ -185,18 +202,6 @@ const app: IApp = {
             url: "https://play.google.com/store/apps/details?id=com.javalon.jamb360",
             tooltip: "View on playstore",
           }
-        ],
-      },
-      {
-        title: "roomie",
-        tags: ["Mobile"],
-        desc: "Utility library that utilizes KSP to generate Room converter classes.",
-        links: [
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/ezechuka/roomie",
-            tooltip: "View on github",
-          },
         ],
       },
     ],

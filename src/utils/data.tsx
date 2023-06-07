@@ -108,6 +108,18 @@ const app: IApp = {
     tag: "projects",
     projects: [
       {
+        title: "Martlines",
+        tags: ["Web"],
+        desc: "An ecommerce marketplace that connects Nigerian markets and makes physical stores accessible to potential customers.",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://ezechuka.netlify.app/",
+            tooltip: "View on web",
+          },
+        ],
+      },
+      {
         title: "Urban Interiors",
         tags: ["Web"],
         desc: "A furniture e-commerce web store powered by firebase and built using Nextjs and ChakraUI which features a products listing page, cart, wishlist, checkout and an admin panel.",

@@ -114,7 +114,7 @@ const app: IApp = {
         links: [
           {
             icon: <Globe size={24} />,
-            url: "https://ezechuka.netlify.app/",
+            url: "https://www.martlines.ng/",
             tooltip: "View on web",
           },
         ],
